@@ -189,12 +189,355 @@ $product->addConcurence('Mall',26490,0);
 $product->addConcurence('MobilPohotovost',26490,0);
 $product->addConcurence('CZC',25790,3);
 $product->addConcurence('Heureka',26990,0);
-$product->addConcurence('Zbozi',4790,0);
-$product->addConcurence('GoogleNakupy',4790,0);
+$product->addConcurence('Zbozi',26680,0);
+$product->addConcurence('GoogleNakupy',23126,0);
 
-$product->addSource('Datart',26990,0, [6822,6950,6661]);
-$product->addSource('Mall',26490,0, [6801,6955,6799]);
-$product->addSource('MobilPohotovost',26490,0, [6600,6911,6493]);
-$product->addSource('Mironet',28990,0, [6854,6999,6749]);
+$product->addSource('Datart',26990,0, [26390,27520,26616]);
+$product->addSource('Mall',26490,0, [26520,26890,26710]);
+$product->addSource('MobilPohotovost',26490,0, [26700,26569,26528]);
+$product->addSource('Mironet',28990,0, [29600,29432,29195]);
 
 $data[] = $product;
+
+//
+
+$product = new Product('Lenovo V15 G2 ALC', '1954776834576');
+$product->addConcurence('Datart',13990,0);
+$product->addConcurence('Mall',10990,0);
+$product->addConcurence('T.S.Bohemia',14189,0);
+$product->addConcurence('CZC',10890,0);
+$product->addConcurence('Heureka',14189,0);
+$product->addConcurence('Zbozi',10890,0);
+$product->addConcurence('GoogleNakupy',10890,0);
+
+$product->addSource('Datart',13990,0, [13723,13647,12845]);
+$product->addSource('Mall',10990,0, [12295,11990,11200]);
+$product->addSource('T.S.Bohemia',14189,0, [14584,14700,14394]);
+$product->addSource('Mironet',11785,0, [13000,12469,12032]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('HP ProBook 455 G8 4P335ES', '1960689351918');
+$product->addConcurence('Datart',13491,0);
+$product->addConcurence('Mall',13990,0);
+$product->addConcurence('T.S.Bohemia',14990,0);
+$product->addConcurence('CZC',13990,0);
+$product->addConcurence('Heureka',14989,0);
+$product->addConcurence('Zbozi',13958,0);
+$product->addConcurence('GoogleNakupy',14990,0);
+
+$product->addSource('Datart',13491,0, [14694,14021,13634]);
+$product->addSource('Mall',13990,0, [15045,14739,14100]);
+$product->addSource('T.S.Bohemia',14990,0, [15660,14427,15078]);
+$product->addSource('Mironet',14500,0, [15392,14979,14632]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Acer Nitro 5 NH.QFGEC.001', '000000000000000');
+$product->addConcurence('Datart',37249,0);
+$product->addConcurence('Mall',38990,0);
+$product->addConcurence('T.S.Bohemia',38990,0);
+$product->addConcurence('CZC',37990,0);
+$product->addConcurence('Heureka',37249,0);
+$product->addConcurence('Zbozi',38990,2);
+$product->addConcurence('GoogleNakupy',37249,0);
+
+$product->addSource('Datart',37249,0, [39410,39434,37739]);
+$product->addSource('Mall',38990,0, [40185,39930,39100]);
+$product->addSource('T.S.Bohemia',38990,0, [40129,39738,39010]);
+$product->addSource('Mironet',39911,2, [41290,40938,40139]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Asus TUF Gaming F15 FX506HC-HN001', '4711081362333');
+$product->addConcurence('Datart',21990,0);
+$product->addConcurence('Mall',21990,0);
+$product->addConcurence('T.S.Bohemia',20690,0);
+$product->addConcurence('CZC',21490,0);
+$product->addConcurence('Heureka',21990,0);
+$product->addConcurence('Zbozi',20690,0);
+$product->addConcurence('GoogleNakupy',21990,0);
+
+$product->addSource('Datart',21990,0, [21726,21567,21833]);
+$product->addSource('Mall',21990,0, [21800,21730,22000]);
+$product->addSource('T.S.Bohemia',20690,0, [21820,21738,21100]);
+$product->addSource('Mironet',19992,0, [21482,20917,20174]);
+
+$data[] = $product;
+
+////
+
+$product = new Product('Microsoft Xbox Series X', '8898426408164');
+$product->addConcurence('Datart',13499,0);
+$product->addConcurence('Mall',13490,0);
+$product->addConcurence('Alza',13490,0);
+$product->addConcurence('CZC',13490,0);
+$product->addConcurence('Heureka',13490,0);
+$product->addConcurence('Zbozi',13199,0);
+$product->addConcurence('GoogleNakupy',13490,0);
+
+$product->addSource('Datart',13499,0, [14940,14588,14314]);
+$product->addSource('Mall',13490,0, [15010,14839,13820]);
+$product->addSource('Alza',13490,0, [14920,14630,13812]);
+$product->addSource('Mironet',13490,0, [14892,14821,13739]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Microsoft Xbox Series S', '8898426408164');
+$product->addConcurence('Datart',5999,0);
+$product->addConcurence('Mall',5990,0);
+$product->addConcurence('T.S.Bohemia',5990,0);
+$product->addConcurence('CZC',5990,0);
+$product->addConcurence('Heureka',5990,0);
+$product->addConcurence('Zbozi',5990,0);
+$product->addConcurence('GoogleNakupy',5990,0);
+
+$product->addSource('Datart',5999,0, [6385,6599,5990]);
+$product->addSource('Mall',5990,0, [6300,6249,6050]);
+$product->addSource('T.S.Bohemia',5990,0, [6439,6210,5999]);
+$product->addSource('Mironet',5990,0, [6318,6148,6001]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('PlayStation 5', '7117194239970');
+$product->addConcurence('Datart',18999,0);
+$product->addConcurence('Mall',17999,0);
+$product->addConcurence('T.S.Bohemia',17490,0);
+$product->addConcurence('CZC',14490,0);
+$product->addConcurence('Heureka',19380,0);
+$product->addConcurence('Zbozi',17999,0);
+$product->addConcurence('GoogleNakupy',17999,0);
+
+$product->addSource('Datart',18999,0, [20786,21138,20869]);
+$product->addSource('Mall',17999,0, [19218,19378,18502]);
+$product->addSource('T.S.Bohemia',17490,0, [19111,18683,18100]);
+$product->addSource('Mironet',17999,0, [19428,18492,18000]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Nintendo Switch', '0454964525992');
+$product->addConcurence('Datart',7599,0);
+$product->addConcurence('Mall',7439,0);
+$product->addConcurence('T.S.Bohemia',7439,0);
+$product->addConcurence('CZC',7439,0);
+$product->addConcurence('Heureka',7824,0);
+$product->addConcurence('Zbozi',7309,0);
+$product->addConcurence('GoogleNakupy',7439,0);
+
+$product->addSource('Datart',7599,0, [8396,8432,8272]);
+$product->addSource('Mall',7439,0, [8200,7937,7530]);
+$product->addSource('T.S.Bohemia',7439,0, [8139,7839,7501]);
+$product->addSource('Mironet',7390,0, [8205,7639,7492]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Nintendo Switch Lite', '0454964526500');
+$product->addConcurence('Datart',5649,0);
+$product->addConcurence('Mall',5639,0);
+$product->addConcurence('T.S.Bohemia',5790,0);
+$product->addConcurence('CZC',5649,0);
+$product->addConcurence('Heureka',6001,0);
+$product->addConcurence('Zbozi',7309,0);
+$product->addConcurence('GoogleNakupy',7439,0);
+
+$product->addSource('Datart',5649,0, [6301,5955,5739]);
+$product->addSource('Mall',5639,0, [6258,5894,5793]);
+$product->addSource('T.S.Bohemia',5790,0, [6357,6243,6413]);
+$product->addSource('Alza',5639,0, [6149,5894,5693]);
+
+$data[] = $product;
+
+////
+
+$product = new Product('Samsung Galaxy Tab A8', '8806092943704');
+$product->addConcurence('Datart',3990,0);
+$product->addConcurence('Mall',5990,0);
+$product->addConcurence('T.S.Bohemia',3990,0);
+$product->addConcurence('CZC',3990,0);
+$product->addConcurence('Heureka',4813,0);
+$product->addConcurence('Zbozi',3990,0);
+$product->addConcurence('GoogleNakupy',3990,0);
+
+$product->addSource('Datart',3990,0, [5322,5270,4709]);
+$product->addSource('Mall',5990,0, [6483,6194,6010]);
+$product->addSource('T.S.Bohemia',3990,0, [4928,4394,4028]);
+$product->addSource('Mironet',4838,0, [5539,5054,4983]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Lenovo Tab M10 Plus', '1945528726492');
+$product->addConcurence('Datart',4490,0);
+$product->addConcurence('Mall',4490,0);
+$product->addConcurence('T.S.Bohemia',4490,0);
+$product->addConcurence('CZC',4499,0);
+$product->addConcurence('Heureka',4235,0);
+$product->addConcurence('Zbozi',4090,0);
+$product->addConcurence('GoogleNakupy',4499,0);
+
+$product->addSource('Datart',4490,0, [4862,4762,4525]);
+$product->addSource('Mall',4490,0, [4900,4800,4528]);
+$product->addSource('T.S.Bohemia',4490,0, [4939,4693,4490]);
+$product->addSource('Mironet',4590,0, [4968,4711,4604]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Apple iPad Air (2022) 64GB', '1942527945244');
+$product->addConcurence('Datart',17990,0);
+$product->addConcurence('Mall',18990,0);
+$product->addConcurence('T.S.Bohemia',18990,0);
+$product->addConcurence('CZC',18990,0);
+$product->addConcurence('Heureka',18777,0);
+$product->addConcurence('Zbozi',17490,0);
+$product->addConcurence('GoogleNakupy',18990,0);
+
+$product->addSource('Datart',17990,0, [18953,18890,18349]);
+$product->addSource('Mall',18990,0, [20393,19485,19055]);
+$product->addSource('T.S.Bohemia',18990,0, [20194,19843,18999]);
+$product->addSource('Mironet',18760,0, [20285,19909,19058]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Samsung Galaxy Tab S7 FE Wi-Fi', '8806092765597');
+$product->addConcurence('Datart',11990,7);
+$product->addConcurence('Mall',11990,0);
+$product->addConcurence('T.S.Bohemia',11990,0);
+$product->addConcurence('CZC',11990,0);
+$product->addConcurence('Heureka',11990,0);
+$product->addConcurence('Zbozi',11495,0);
+$product->addConcurence('GoogleNakupy',10990,0);
+
+$product->addSource('Datart',11990,0, [12160,13042,12295]);
+$product->addSource('Mall',11990,0, [12294,12958,11999]);
+$product->addSource('T.S.Bohemia',11990,0, [12843,12484,12058]);
+$product->addSource('Mironet',11817,0, [12444,11938,11948]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Xiaomi Mi Pad 5 6GB/128GB', '6934177752773');
+$product->addConcurence('Datart',9490,0);
+$product->addConcurence('Alza',9490,0);
+$product->addConcurence('T.S.Bohemia',9990,0);
+$product->addConcurence('CZC',9490,0);
+$product->addConcurence('Heureka',9321,0);
+$product->addConcurence('Zbozi',9990,0);
+$product->addConcurence('GoogleNakupy',8900,0);
+
+$product->addSource('Datart',9490,0, [9572,9780,9773]);
+$product->addSource('Alza',9490,0, [9683,9648,9538]);
+$product->addSource('T.S.Bohemia',9990,0, [11949,11394,10049]);
+$product->addSource('Mironet',9859,0, [10048,9988,9900]);
+
+$data[] = $product;
+
+////
+
+$product = new Product('Canon PIXMA TS3350', '4549292143867');
+$product->addConcurence('Datart',1199,0);
+$product->addConcurence('Mall',1199,0);
+$product->addConcurence('T.S.Bohemia',1290,0);
+$product->addConcurence('CZC',1199,0);
+$product->addConcurence('Heureka',1199,0);
+$product->addConcurence('Zbozi',1078,0);
+$product->addConcurence('GoogleNakupy',1199,0);
+
+$product->addSource('Datart',1199,0, [1333,1318,1311]);
+$product->addSource('Mall',1199,0, [1348,1295,1204]);
+$product->addSource('T.S.Bohemia',1290,0, [1324,1302,1295]);
+$product->addSource('Mironet',1150,0, [1395,1277,1185]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Xerox WorkCentre 3025Bi', '0952058631302');
+$product->addConcurence('Comfor',3990,0);
+$product->addConcurence('Mall',3899,0);
+$product->addConcurence('T.S.Bohemia',3890,0);
+$product->addConcurence('CZC',3890,0);
+$product->addConcurence('Heureka',3890,0);
+$product->addConcurence('Zbozi',3555,0);
+$product->addConcurence('GoogleNakupy',3678,0);
+
+$product->addSource('Comfor',3990,0, [3989,3990,3978]);
+$product->addSource('Mall',3899,0, [4039,4148,3985]);
+$product->addSource('T.S.Bohemia',3890,0, [4184,4058,4938]);
+$product->addSource('Mironet',5203,0, [5588,5384,5284]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('HP LaserJet MFP M438n', '1944411299082');
+$product->addConcurence('Datart',11690,0);
+$product->addConcurence('Mall',11698,0);
+$product->addConcurence('T.S.Bohemia',11590,0);
+$product->addConcurence('CZC',11699,0);
+$product->addConcurence('Heureka',10984,0);
+$product->addConcurence('Zbozi',10838,0);
+$product->addConcurence('GoogleNakupy',11590,0);
+
+$product->addSource('Datart',11690,0, [12074,12008,11347]);
+$product->addSource('Mall',11698,0, [12953,11978,11573]);
+$product->addSource('T.S.Bohemia',11590,0, [12583,12048,11944]);
+$product->addSource('Mironet',11977,0, [12453,12192,11999]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('HP Ink Tank 415', '1907818615084');
+$product->addConcurence('Datart',2269,0);
+$product->addConcurence('Mall',2699,0);
+$product->addConcurence('T.S.Bohemia',2699,0);
+$product->addConcurence('CZC',2269,0);
+$product->addConcurence('Heureka',3642,0);
+$product->addConcurence('Zbozi',2690,0);
+$product->addConcurence('GoogleNakupy',2699,0);
+
+$product->addSource('Datart',2269,0, [2968,2583,2395]);
+$product->addSource('Mall',2699,0, [3555,3259,2869]);
+$product->addSource('T.S.Bohemia',2699,0, [3190,3189,2699]);
+$product->addSource('Mironet',3389,0, [3965,3934,3843]);
+
+$data[] = $product;
+
+//
+
+$product = new Product('Brother DCP-L2532DW', '4977766783200');
+$product->addConcurence('Datart',4699,0);
+$product->addConcurence('Alza',4699,0);
+$product->addConcurence('T.S.Bohemia',5039,0);
+$product->addConcurence('CZC',4629,30);
+$product->addConcurence('Heureka',4476,0);
+$product->addConcurence('Zbozi',4179,0);
+$product->addConcurence('GoogleNakupy',4179,0);
+
+$product->addSource('Datart',4699,0, [4779,4684,4692]);
+$product->addSource('Alza',4699,0, [4969,4753,4699]);
+$product->addSource('T.S.Bohemia',5039,0, [5395,5134,5054]);
+$product->addSource('Mironet',4942,0, [5494,5149,4965]);
+
+$data[] = $product;
+
